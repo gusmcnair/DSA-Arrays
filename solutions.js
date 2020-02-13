@@ -1,3 +1,14 @@
+/*
+1. Done, and in relevant files.
+
+2.
+  a. Length 1, Capacity 1, Address 1
+  b. Length 6, Capacity 12, Address 3: The capacity is tripling and the memory address is reassigned every time the limit is reached.
+
+3. Length 3, Capacity 12, Address 3: The three last values from the array are removed, but the capacity and address stay the same.
+
+4. It returns 'NaN' for 'tauhida' or any other text, because this array appears unable to store strings.*/
+
 //5. URLify a string
 
 function urlify(input){
